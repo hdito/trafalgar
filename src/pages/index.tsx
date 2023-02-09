@@ -4,6 +4,7 @@ import { LeadingHealthcareProviders } from "@/components/leadingHealthcareProvid
 import { Logo } from "@/components/logo";
 import { MobileAppsSection } from "@/components/mobileAppsSection";
 import { OurServices } from "@/components/ourServices";
+import { Testimonials } from "@/components/testimonials";
 import { TopNavBar } from "@/components/topNavBar";
 import { Mulish } from "@next/font/google";
 import Head from "next/head";
@@ -29,6 +30,7 @@ export default function Home() {
           <OurServices />
           <LeadingHealthcareProviders />
           <MobileAppsSection />
+          <Testimonials />
         </main>
       </div>
     </>
