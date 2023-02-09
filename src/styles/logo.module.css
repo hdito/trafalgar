@@ -1,0 +1,22 @@
+.logo__image {
+  height: 41px;
+  width: 41px;
+  border-radius: 50%;
+  font-size: 26px;
+  background-color: #458ff6;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  font-weight: 700;
+}
+
+.logo__text {
+  font-size: 24px;
+}

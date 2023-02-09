@@ -1,0 +1,16 @@
+.top-nav-bar {
+  display: flex;
+  align-items: baseline;
+  gap: 40px;
+  font-size: 18px;
+  color: #1f1534;
+}
+
+.top-nav-bar__link {
+  opacity: 0.5;
+}
+
+.top-nav-bar__link--active {
+  opacity: 1;
+  font-weight: 700;
+}
