@@ -1,6 +1,6 @@
-import { DescriptionImage } from "./icons/descriptionIllustration";
 import description from "@/styles/description.module.css";
 import { DotsGrid } from "./dotsGrid";
+import Image from "next/image";
 
 export const Description = (): JSX.Element => {
   return (
@@ -20,7 +20,12 @@ export const Description = (): JSX.Element => {
           Consult today
         </button>
       </div>
-      <DescriptionImage />
+      <Image
+        src="trafalgar-header-illustration-1.svg"
+        alt="Trafalgar healthcare"
+        width="693"
+        height="598"
+      />
     </div>
   );
 };

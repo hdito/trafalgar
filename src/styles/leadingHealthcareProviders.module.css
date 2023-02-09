@@ -29,12 +29,13 @@
 .leading-healthcare-providers__dots-grid {
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 100px;
   translate: 50px;
 }
 
 .leading-healthcare-providers__container {
   position: relative;
   max-width: 100vw;
-  margin-bottom: 220px;
+  padding-bottom: 220px;
+  overflow: hidden;
 }

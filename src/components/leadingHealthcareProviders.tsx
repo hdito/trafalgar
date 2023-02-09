@@ -1,9 +1,9 @@
+import leadingHealthcareProviders from "@/styles/leadingHealthcareProviders.module.css";
+import Image from "next/image";
 import { Bar } from "./bar";
-import { HealthcareProvidersIcon } from "./icons/healthcareProvidersIcon";
+import { DotsGrid } from "./dotsGrid";
 import { SecondaryButton } from "./secondaryButton";
 import { Subheader } from "./subheader";
-import leadingHealthcareProviders from "@/styles/leadingHealthcareProviders.module.css";
-import { DotsGrid } from "./dotsGrid";
 
 export const LeadingHealthcareProviders = () => {
   return (
@@ -20,7 +20,12 @@ export const LeadingHealthcareProviders = () => {
             leadingHealthcareProviders["leading-healthcare-providers__block"]
           }
         >
-          <HealthcareProvidersIcon />
+          <Image
+            src="trafalgar-illustration sec02 1.svg"
+            width="650"
+            height="477"
+            alt="Trafalgar providers"
+          />
         </div>
         <div
           className={`${leadingHealthcareProviders["leading-healthcare-providers__block"]} ${leadingHealthcareProviders["leading-healthcare-providers__text"]}`}
