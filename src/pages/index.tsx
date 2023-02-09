@@ -1,5 +1,7 @@
+import { Description } from "@/components/description";
 import { Header } from "@/components/header";
 import { Logo } from "@/components/logo";
+import { OurServices } from "@/components/ourServices";
 import { TopNavBar } from "@/components/topNavBar";
 import { Mulish } from "@next/font/google";
 import Head from "next/head";
@@ -20,8 +22,10 @@ export default function Home() {
           <Logo />
           <TopNavBar />
         </Header>
-        </div>
-      </main>
+        <main>
+          <Description />
+          <OurServices />
+        </main>
       </div>
     </>
   );

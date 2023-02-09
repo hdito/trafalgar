@@ -1,0 +1,41 @@
+.description {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: auto;
+  margin-bottom: 192px;
+}
+
+.description__text-block {
+  max-width: 450px;
+  width: 100%;
+}
+
+.desciption__header {
+  font-weight: 700;
+  font-size: 48px;
+  margin-bottom: 25px;
+}
+
+.description__text {
+  color: #7d7987;
+  font-weight: 300;
+  margin-bottom: 45px;
+}
+
+.description__button {
+  background-color: #458ff6;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 55px;
+  color: white;
+  padding: 20px 40px;
+}
+
+.description__dots-grid {
+  position: absolute;
+  left: -160px;
+  top: 0;
+}
