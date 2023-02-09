@@ -2,6 +2,7 @@ import { Description } from "@/components/description";
 import { Header } from "@/components/header";
 import { LeadingHealthcareProviders } from "@/components/leadingHealthcareProviders";
 import { Logo } from "@/components/logo";
+import { MobileAppsSection } from "@/components/mobileAppsSection";
 import { OurServices } from "@/components/ourServices";
 import { TopNavBar } from "@/components/topNavBar";
 import { Mulish } from "@next/font/google";
@@ -27,6 +28,7 @@ export default function Home() {
           <Description />
           <OurServices />
           <LeadingHealthcareProviders />
+          <MobileAppsSection />
         </main>
       </div>
     </>

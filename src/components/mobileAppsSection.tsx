@@ -2,7 +2,6 @@ import styles from "@/styles/index.module.css";
 import mobileAppsSection from "@/styles/mobileAppsSection.module.css";
 import Image from "next/image";
 import { Bar } from "./bar";
-import { ArrowIcon } from "./icons/arrowIcon";
 import { SecondaryButton } from "./secondaryButton";
 import { Subheader } from "./subheader";
 
@@ -19,7 +18,13 @@ export const MobileAppsSection = (): JSX.Element => {
           access information instantaneously (no tedeous form, long calls, or
           administrative hassle) and securely
         </p>
-        <SecondaryButton icon={<ArrowIcon />}>Download</SecondaryButton>
+        <SecondaryButton
+          icon={
+            <Image src="/Arrow.svg" width="10" height={16} alt="Download" />
+          }
+        >
+          Download
+        </SecondaryButton>
       </div>
       <Image
         src="trafalgar-illustration sec03 1.svg"
