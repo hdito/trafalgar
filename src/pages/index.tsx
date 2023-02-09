@@ -1,5 +1,6 @@
 import { Description } from "@/components/description";
 import { Header } from "@/components/header";
+import { LeadingHealthcareProviders } from "@/components/leadingHealthcareProviders";
 import { Logo } from "@/components/logo";
 import { OurServices } from "@/components/ourServices";
 import { TopNavBar } from "@/components/topNavBar";
@@ -25,6 +26,7 @@ export default function Home() {
         <main>
           <Description />
           <OurServices />
+          <LeadingHealthcareProviders />
         </main>
       </div>
     </>
