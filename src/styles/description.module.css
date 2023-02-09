@@ -1,11 +1,14 @@
 .description {
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
   max-width: 1280px;
   margin: auto;
   margin-bottom: 192px;
+}
+
+.description__container {
+  position: relative;
 }
 
 .description__text-block {
@@ -36,6 +39,6 @@
 
 .description__dots-grid {
   position: absolute;
-  left: -160px;
+  left: -50px;
   top: 0;
 }
