@@ -1,3 +1,4 @@
+import { ArticlesSection } from "@/components/articlesSection";
 import { Description } from "@/components/description";
 import { Header } from "@/components/header";
 import { LeadingHealthcareProviders } from "@/components/leadingHealthcareProviders";
@@ -31,6 +32,7 @@ export default function Home() {
           <LeadingHealthcareProviders />
           <MobileAppsSection />
           <Testimonials />
+          <ArticlesSection />
         </main>
       </div>
     </>

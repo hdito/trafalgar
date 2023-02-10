@@ -4,3 +4,9 @@
   line-height: 30px;
   color: #7d7987;
 }
+
+.black-delimiter {
+  width: 56px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
