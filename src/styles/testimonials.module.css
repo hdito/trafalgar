@@ -87,8 +87,8 @@
 
 .testimonials__inner-grid {
   position: absolute;
-  right: -30;
-  top: 0;
+  right: -30px;
+  top: -10px;
 }
 
 .testimonials__outer-grid {

@@ -1,4 +1,5 @@
 import footerStyles from "@/styles/footer.module.css";
+import Image from "next/image";
 
 type FooterLinksBlock = {
   title: string;
@@ -69,6 +70,13 @@ export const Footer = (): JSX.Element => {
           </div>
         ))}
       </div>
+      <Image
+        className={footerStyles.footer__grid}
+        src="/inner dots grid.svg"
+        width={130}
+        height={115}
+        alt=""
+      />
     </footer>
   );
 };

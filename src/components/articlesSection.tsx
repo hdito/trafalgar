@@ -3,6 +3,7 @@ import articlesSection from "@/styles/articlesSection.module.css";
 import { SecondaryButton } from "./secondaryButton";
 import indexStyles from "@/styles/index.module.css";
 import { Subheader } from "./subheader";
+import Image from "next/image";
 
 export const ArticlesSection = (): JSX.Element => {
   const articles: ArticleCardProps[] = [
@@ -30,18 +31,27 @@ export const ArticlesSection = (): JSX.Element => {
   ];
 
   return (
-    <div className={articlesSection["articles-section"]}>
-      <div className={articlesSection["articles-section__header-container"]}>
-        <Subheader>Check out our latest article</Subheader>
-        <div className={indexStyles["black-delimiter"]}></div>
-      </div>
-      <div className={articlesSection["article-section__cards-container"]}>
-        {articles.map((article) => (
-          <ArticleCard {...article} />
-        ))}
-      </div>
-      <div className={articlesSection["article-section__button-container"]}>
-        <SecondaryButton>View all</SecondaryButton>
+    <div className={articlesSection["articles-section__container"]}>
+      <Image
+        className={articlesSection["articles-section__grid"]}
+        src="/articles bg.svg"
+        width={547}
+        height={792}
+        alt=""
+      />
+      <div className={articlesSection["articles-section"]}>
+        <div className={articlesSection["articles-section__header-container"]}>
+          <Subheader>Check out our latest article</Subheader>
+          <div className={indexStyles["black-delimiter"]}></div>
+        </div>
+        <div className={articlesSection["article-section__cards-container"]}>
+          {articles.map((article) => (
+            <ArticleCard {...article} />
+          ))}
+        </div>
+        <div className={articlesSection["article-section__button-container"]}>
+          <SecondaryButton>View all</SecondaryButton>
+        </div>
       </div>
     </div>
   );

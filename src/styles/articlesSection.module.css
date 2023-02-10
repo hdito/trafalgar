@@ -48,6 +48,7 @@
 }
 
 .article-section__cards-container {
+  position: relative;
   display: grid;
   grid-template-columns: repeat(3, 350px);
   gap: 35px;
@@ -65,4 +66,15 @@
   align-items: center;
   gap: 26px;
   margin-bottom: 80px;
+}
+
+.articles-section__container {
+  position: relative;
+}
+
+.articles-section__grid {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  translate: 0 -50%;
 }
