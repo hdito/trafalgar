@@ -1,5 +1,5 @@
 import { ArticleCard, ArticleCardProps } from "./articleCard";
-import articlesSection from "@/styles/articlesSection.module.css";
+import articlesStyles from "@/styles/articles.module.css";
 import { SecondaryButton } from "./secondaryButton";
 import indexStyles from "@/styles/index.module.css";
 import { Subheader } from "./subheader";
@@ -31,25 +31,25 @@ export const ArticlesSection = (): JSX.Element => {
   ];
 
   return (
-    <div className={articlesSection["articles-section__container"]}>
+    <div className={articlesStyles["articles__container"]}>
       <Image
-        className={articlesSection["articles-section__grid"]}
+        className={articlesStyles["articles__grid"]}
         src="/articles bg.svg"
         width={547}
         height={792}
         alt=""
       />
-      <div className={articlesSection["articles-section"]}>
-        <div className={articlesSection["articles-section__header-container"]}>
+      <div className={articlesStyles["articles"]}>
+        <div className={articlesStyles["articles__header-container"]}>
           <Subheader>Check out our latest article</Subheader>
           <div className={indexStyles["black-delimiter"]}></div>
         </div>
-        <div className={articlesSection["article-section__cards-container"]}>
+        <div className={articlesStyles["articles__cards-container"]}>
           {articles.map((article) => (
             <ArticleCard {...article} />
           ))}
         </div>
-        <div className={articlesSection["article-section__button-container"]}>
+        <div className={articlesStyles["articles__button-container"]}>
           <SecondaryButton>View all</SecondaryButton>
         </div>
       </div>

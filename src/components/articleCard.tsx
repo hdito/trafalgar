@@ -1,5 +1,5 @@
 import Image from "next/image";
-import articlesSection from "@/styles/articlesSection.module.css";
+import articlesStyles from "@/styles/articles.module.css";
 
 export type ArticleCardProps = {
   image: {
@@ -18,19 +18,14 @@ export const ArticleCard = ({
   url,
 }: ArticleCardProps): JSX.Element => {
   return (
-    <div className={articlesSection["article-section__card"]}>
+    <div className={articlesStyles["articles__card"]}>
       <Image src={image.url} alt={image.alt} width={350} height={240} />
-      <div className={articlesSection["article-section__card__text-section"]}>
-        <h3 className={articlesSection["article-section__card__header"]}>
-          {title}
-        </h3>
-        <p className={articlesSection["article-section__card__excerpt"]}>
+      <div className={articlesStyles["articles__card__text-section"]}>
+        <h3 className={articlesStyles["articles__card__header"]}>{title}</h3>
+        <p className={articlesStyles["articles__card__excerpt"]}>
           {description}
         </p>
-        <a
-          className={articlesSection["article-section__card__link"]}
-          href={url}
-        >
+        <a className={articlesStyles["articles__card__link"]} href={url}>
           Read more
         </a>
       </div>

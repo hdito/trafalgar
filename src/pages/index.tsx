@@ -1,10 +1,10 @@
-import { ArticlesSection } from "@/components/articlesSection";
+import { ArticlesSection } from "@/components/articles";
 import { Description } from "@/components/description";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
-import { LeadingHealthcareProviders } from "@/components/leadingHealthcareProviders";
+import { Providers } from "@/components/providers";
 import { Logo } from "@/components/logo";
-import { MobileAppsSection } from "@/components/mobileAppsSection";
+import { MobileApps } from "@/components/mobileApps";
 import { OurServices } from "@/components/ourServices";
 import { Testimonials } from "@/components/testimonials";
 import { TopNavBar } from "@/components/topNavBar";
@@ -30,8 +30,8 @@ export default function Home() {
         <main>
           <Description />
           <OurServices />
-          <LeadingHealthcareProviders />
-          <MobileAppsSection />
+          <Providers />
+          <MobileApps />
           <Testimonials />
           <ArticlesSection />
         </main>

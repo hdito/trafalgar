@@ -1,18 +1,18 @@
 import styles from "@/styles/index.module.css";
-import mobileAppsSection from "@/styles/mobileAppsSection.module.css";
+import mobileAppsStyles from "@/styles/mobileApps.module.css";
 import Image from "next/image";
 import { Bar } from "./bar";
 import { SecondaryButton } from "./secondaryButton";
 import { Subheader } from "./subheader";
 
-export const MobileAppsSection = (): JSX.Element => {
+export const MobileApps = (): JSX.Element => {
   return (
-    <div className={mobileAppsSection["mobile-apps-section"]}>
-      <div className={mobileAppsSection["mobile-apps-section__text-block"]}>
+    <div className={mobileAppsStyles["mobile-apps"]}>
+      <div className={mobileAppsStyles["mobile-apps__text-block"]}>
         <Subheader>Download our mobile&nbsp;apps</Subheader>
         <Bar />
         <p
-          className={`${styles.description} ${mobileAppsSection["mobile-apps-section__description"]}`}
+          className={`${styles.description} ${mobileAppsStyles["mobile-apps__description"]}`}
         >
           Our dedicated patient engagement app and web portal allow you to
           access information instantaneously (no tedeous form, long calls, or
