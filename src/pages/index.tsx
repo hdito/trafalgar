@@ -1,5 +1,6 @@
 import { ArticlesSection } from "@/components/articlesSection";
 import { Description } from "@/components/description";
+import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { LeadingHealthcareProviders } from "@/components/leadingHealthcareProviders";
 import { Logo } from "@/components/logo";
@@ -34,6 +35,7 @@ export default function Home() {
           <Testimonials />
           <ArticlesSection />
         </main>
+        <Footer />
       </div>
     </>
   );

@@ -1,0 +1,56 @@
+.footer {
+  background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+  padding: 109px 0;
+  color: white;
+  font-size: 18px;
+}
+
+.footer__info-container {
+  margin: auto;
+  display: grid;
+  max-width: fit-content;
+  gap: 50px;
+  grid-template-columns: 390px 200px 200px 200px;
+}
+
+.footer__links-block-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.footer__link {
+  font-weight: 300;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.footer__logo-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-left: 50px;
+}
+
+.footer__logo {
+  position: absolute;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 41px;
+  height: 41px;
+  border-radius: 100%;
+  background-color: white;
+  color: #5b9bf3;
+}
+
+.footer__project-description {
+  font-weight: 300;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
