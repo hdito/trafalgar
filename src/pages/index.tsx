@@ -3,11 +3,10 @@ import { Description } from "@/components/description";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { Providers } from "@/components/providers";
-import { Logo } from "@/components/logo";
 import { MobileApps } from "@/components/mobileApps";
 import { OurServices } from "@/components/ourServices";
 import { Testimonials } from "@/components/testimonials";
-import { TopNavBar } from "@/components/topNavBar";
+import { Nav } from "@/components/nav";
 import { Mulish } from "@next/font/google";
 import Head from "next/head";
 
@@ -23,10 +22,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={mulish.className}>
-        <Header>
-          <Logo />
-          <TopNavBar />
-        </Header>
+        <Header />
         <main>
           <Description />
           <OurServices />

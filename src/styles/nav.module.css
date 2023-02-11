@@ -1,0 +1,19 @@
+.nav {
+  font-size: 18px;
+  color: #1f1534;
+}
+
+.nav__link {
+  opacity: 0.5;
+}
+
+.nav__link--active {
+  opacity: 1;
+  font-weight: 700;
+}
+
+.nav__menu {
+  display: flex;
+  align-items: baseline;
+  gap: 40px;
+}
