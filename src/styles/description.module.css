@@ -30,15 +30,6 @@
   margin-bottom: 45px;
 }
 
-.description__button {
-  background-color: var(--blue);
-  font-size: 18px;
-  font-weight: 700;
-  border-radius: 55px;
-  color: white;
-  padding: 20px 40px;
-}
-
 .description__dots-grid {
   position: absolute;
   left: -50px;

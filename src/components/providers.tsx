@@ -2,7 +2,7 @@ import providersStyles from "@/styles/providers.module.css";
 import barStyles from "@/styles/bar.module.css";
 import Image from "next/image";
 import { DotsGrid } from "./dotsGrid";
-import { SecondaryButton } from "./secondaryButton";
+import { Button } from "./button";
 import { Subheader } from "./subheader";
 
 export const Providers = () => {
@@ -29,7 +29,7 @@ export const Providers = () => {
             accessible on mobile and online for everyone. To us, it’s not just
             work. We take pride in the solutions we deliver
           </p>
-          <SecondaryButton>Learn more</SecondaryButton>
+          <Button type="secondary">Learn more</Button>
         </div>
         <div className={providersStyles["providers__dots-grid"]}>
           <DotsGrid />

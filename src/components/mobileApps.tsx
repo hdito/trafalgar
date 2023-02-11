@@ -2,7 +2,7 @@ import barStyles from "@/styles/bar.module.css";
 import styles from "@/styles/index.module.css";
 import mobileAppsStyles from "@/styles/mobileApps.module.css";
 import Image from "next/image";
-import { SecondaryButton } from "./secondaryButton";
+import { Button } from "./button";
 import { Subheader } from "./subheader";
 
 export const MobileApps = (): JSX.Element => {
@@ -18,13 +18,14 @@ export const MobileApps = (): JSX.Element => {
           access information instantaneously (no tedeous form, long calls, or
           administrative hassle) and securely
         </p>
-        <SecondaryButton
+        <Button
+          type="secondary"
           icon={
             <Image src="/Arrow.svg" width="10" height={16} alt="Download" />
           }
         >
           Download
-        </SecondaryButton>
+        </Button>
       </div>
       <Image
         src="trafalgar-illustration sec03 1.svg"

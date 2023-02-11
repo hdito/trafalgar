@@ -2,7 +2,7 @@ import barStyles from "@/styles/bar.module.css";
 import ourServices from "@/styles/ourServices.module.css";
 import Image from "next/image";
 import { OurServicesCard } from "./ourServicesCard";
-import { SecondaryButton } from "./secondaryButton";
+import { Button } from "./button";
 import { Subheader } from "./subheader";
 
 export const OurServices = (): JSX.Element => {
@@ -95,7 +95,7 @@ export const OurServices = (): JSX.Element => {
         </div>
         <div>
           <div className={ourServices["our-services__button-container"]}>
-            <SecondaryButton>Learn more</SecondaryButton>
+            <Button type="secondary">Learn more</Button>
           </div>
         </div>
       </div>

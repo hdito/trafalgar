@@ -1,6 +1,7 @@
 import descriptionStyles from "@/styles/description.module.css";
 import { DotsGrid } from "./dotsGrid";
 import Image from "next/image";
+import { Button } from "./button";
 
 export const Description = (): JSX.Element => {
   return (
@@ -17,9 +18,7 @@ export const Description = (): JSX.Element => {
             Trafalgar provides progressive, and affordable healthcare,
             accessible on mobile and online for everyone
           </p>
-          <button className={descriptionStyles.description__button}>
-            Consult today
-          </button>
+          <Button>Consult today</Button>
         </div>
         <Image
           src="trafalgar-header-illustration-1.svg"

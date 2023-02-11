@@ -2,7 +2,7 @@ import articlesStyles from "@/styles/articles.module.css";
 import barStyles from "@/styles/bar.module.css";
 import Image from "next/image";
 import { ArticleCard, ArticleCardProps } from "./articleCard";
-import { SecondaryButton } from "./secondaryButton";
+import { Button } from "./button";
 import { Subheader } from "./subheader";
 
 export const ArticlesSection = (): JSX.Element => {
@@ -50,7 +50,7 @@ export const ArticlesSection = (): JSX.Element => {
           ))}
         </div>
         <div className={articlesStyles["articles__button-container"]}>
-          <SecondaryButton>View all</SecondaryButton>
+          <Button type="secondary">View all</Button>
         </div>
       </div>
     </div>

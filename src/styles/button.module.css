@@ -3,12 +3,20 @@
   align-items: center;
   justify-content: center;
   gap: 14px;
-  border: 1px solid var(--blue);
-  color: var(--blue);
-  background-color: white;
   width: 200px;
   height: 56px;
   border-radius: 55px;
   font-size: 18px;
   font-weight: 700;
+}
+
+.button--primary {
+  background-color: var(--blue);
+  color: white;
+}
+
+.button--secondary {
+  outline: 1px solid var(--blue);
+  color: var(--blue);
+  background-color: white;
 }
