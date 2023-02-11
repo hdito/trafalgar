@@ -1,6 +1,6 @@
 import providersStyles from "@/styles/providers.module.css";
+import barStyles from "@/styles/bar.module.css";
 import Image from "next/image";
-import { Bar } from "./bar";
 import { DotsGrid } from "./dotsGrid";
 import { SecondaryButton } from "./secondaryButton";
 import { Subheader } from "./subheader";
@@ -23,7 +23,7 @@ export const Providers = () => {
           <div className={providersStyles["providers__header"]}>
             <Subheader>Leading healthcare providers</Subheader>
           </div>
-          <Bar />
+          <div className={barStyles.bar}></div>
           <p className={providersStyles["providers__description"]}>
             Trafalgar provides progressive, and affordable healthcare,
             accessible on mobile and online for everyone. To us, it’s not just

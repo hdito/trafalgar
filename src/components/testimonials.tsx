@@ -1,5 +1,5 @@
 import Image from "next/image";
-import testimonials from "@/styles/testimonials.module.css";
+import barStyles from "@/styles/bar.module.css";
 import { GallerySliderButton } from "./GallerySliderButton";
 import { ArrowButton } from "./arrowButton";
 
@@ -24,9 +24,9 @@ export const Testimonials = (): JSX.Element => {
         <h2 className={testimonials.testimonials__header}>
           What our customer are saying
         </h2>
-        <div className={testimonials.testimonials__delimiter}></div>
-        <div className={testimonials["testimonials__quote-container"]}>
-          <div className={testimonials["testimonials__photo-container"]}>
+        <div
+          className={`${barStyles.bar} ${barStyles["bar--white"]} ${testimonialsStyles.testimonials__bar}`}
+        ></div>
             <Image
               src="/profile.png"
               className={testimonials.testimonials__photo}

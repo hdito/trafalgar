@@ -1,4 +1,9 @@
 .bar {
   width: 56px;
   border: 1px solid black;
+  border-radius: 5px;
+}
+
+.bar--white {
+  border-color: white;
 }

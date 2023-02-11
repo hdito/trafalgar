@@ -1,7 +1,7 @@
+import barStyles from "@/styles/bar.module.css";
 import styles from "@/styles/index.module.css";
 import mobileAppsStyles from "@/styles/mobileApps.module.css";
 import Image from "next/image";
-import { Bar } from "./bar";
 import { SecondaryButton } from "./secondaryButton";
 import { Subheader } from "./subheader";
 
@@ -10,7 +10,7 @@ export const MobileApps = (): JSX.Element => {
     <div className={mobileAppsStyles["mobile-apps"]}>
       <div className={mobileAppsStyles["mobile-apps__text-block"]}>
         <Subheader>Download our mobile&nbsp;apps</Subheader>
-        <Bar />
+        <div className={barStyles.bar}></div>
         <p
           className={`${styles.description} ${mobileAppsStyles["mobile-apps__description"]}`}
         >

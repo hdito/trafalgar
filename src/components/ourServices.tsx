@@ -1,6 +1,6 @@
+import barStyles from "@/styles/bar.module.css";
 import ourServices from "@/styles/ourServices.module.css";
 import Image from "next/image";
-import { Bar } from "./bar";
 import { OurServicesCard } from "./ourServicesCard";
 import { SecondaryButton } from "./secondaryButton";
 import { Subheader } from "./subheader";
@@ -68,7 +68,7 @@ export const OurServices = (): JSX.Element => {
       <div className={ourServices["our-services"]}>
         <div className={ourServices["our-services__description"]}>
           <Subheader>Our services</Subheader>
-          <Bar />
+          <div className={barStyles.bar}></div>
           <p className={ourServices["our-services__description__text"]}>
             We provide to you the best choiches for you. Adjust it to your
             health needs and make sure your undergo treatment with our highly

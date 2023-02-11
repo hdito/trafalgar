@@ -11,11 +11,8 @@
   position: relative;
 }
 
-.testimonials__delimiter {
-  width: 56px;
-  border: 1px solid white;
-  margin-bottom: 40px;
-  border-radius: 6px;
+.testimonials__bar {
+  margin-bottom: 60px;
 }
 
 .testimonials__photo-container {

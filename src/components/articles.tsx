@@ -1,9 +1,9 @@
-import { ArticleCard, ArticleCardProps } from "./articleCard";
 import articlesStyles from "@/styles/articles.module.css";
-import { SecondaryButton } from "./secondaryButton";
-import indexStyles from "@/styles/index.module.css";
-import { Subheader } from "./subheader";
+import barStyles from "@/styles/bar.module.css";
 import Image from "next/image";
+import { ArticleCard, ArticleCardProps } from "./articleCard";
+import { SecondaryButton } from "./secondaryButton";
+import { Subheader } from "./subheader";
 
 export const ArticlesSection = (): JSX.Element => {
   const articles: ArticleCardProps[] = [
@@ -42,7 +42,7 @@ export const ArticlesSection = (): JSX.Element => {
       <div className={articlesStyles["articles"]}>
         <div className={articlesStyles["articles__header-container"]}>
           <Subheader>Check out our latest article</Subheader>
-          <div className={indexStyles["black-delimiter"]}></div>
+          <div className={barStyles.bar}></div>
         </div>
         <div className={articlesStyles["articles__cards-container"]}>
           {articles.map((article) => (
