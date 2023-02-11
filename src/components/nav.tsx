@@ -1,34 +1,34 @@
 import topNavBar from "@/styles/nav.module.css";
+import { Link } from "@/types/link";
 
 export const Nav = (): JSX.Element => {
+  const selectedLink = "Home";
+
+  const links: Link[] = [
+    { title: "Home", url: "#" },
+    { title: "Find a doctor", url: "#" },
+    { title: "Apps", url: "#" },
+    { title: "Testimonials", url: "#" },
+    { title: "About us", url: "#" },
+  ];
+
   return (
     <nav className={topNavBar["nav"]}>
       <ul className={topNavBar.nav__menu}>
-        <li>
-          <a className={topNavBar["nav__link--active"]} href="#">
-            Home
-          </a>
-        </li>
-        <li>
-          <a className={topNavBar.nav__link} href="#">
-            Find a doctor
-          </a>
-        </li>
-        <li>
-          <a className={topNavBar.nav__link} href="#">
-            Apps
-          </a>
-        </li>
-        <li>
-          <a className={topNavBar.nav__link} href="#">
-            Testimonials
-          </a>
-        </li>
-        <li>
-          <a className={topNavBar.nav__link} href="#">
-            About us
-          </a>
-        </li>
+        {links.map((link) => (
+          <li key={link.title}>
+            <a
+              href={link.url}
+              className={`${topNavBar.nav__link} ${
+                link.title === selectedLink
+                  ? topNavBar["nav__link--active"]
+                  : ""
+              }`}
+            >
+              {link.title}
+            </a>
+          </li>
+        ))}
       </ul>
     </nav>
   );
