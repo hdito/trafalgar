@@ -1,4 +1,5 @@
 import ourServicesStyles from "@/styles/ourServices.module.css";
+import descriptionStyles from "@/styles/description.module.css";
 
 type OurServicesCardProps = {
   icon: JSX.Element;
@@ -20,7 +21,9 @@ export const OurServicesCard = ({
         <h3 className={ourServicesStyles["our-services__card__header"]}>
           {title}
         </h3>
-        <p className={ourServicesStyles["our-services__card__description"]}>
+        <p
+          className={`${descriptionStyles.description} ${descriptionStyles["description--sm"]}`}
+        >
           {description}
         </p>
       </>

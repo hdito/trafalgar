@@ -1,5 +1,6 @@
 import barStyles from "@/styles/bar.module.css";
 import ourServices from "@/styles/ourServices.module.css";
+import descriptionStyles from "@/styles/description.module.css";
 import Image from "next/image";
 import { OurServicesCard } from "./ourServicesCard";
 import { Button } from "./button";
@@ -69,7 +70,9 @@ export const OurServices = (): JSX.Element => {
         <div className={ourServices["our-services__description"]}>
           <Subheader>Our services</Subheader>
           <div className={barStyles.bar}></div>
-          <p className={ourServices["our-services__description__text"]}>
+          <p
+            className={`${descriptionStyles.description} ${ourServices["our-services__description__text"]}`}
+          >
             We provide to you the best choiches for you. Adjust it to your
             health needs and make sure your undergo treatment with our highly
             qualified doctors you can consult with us which type of service is

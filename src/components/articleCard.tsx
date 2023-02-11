@@ -1,5 +1,6 @@
 import Image from "next/image";
 import articlesStyles from "@/styles/articles.module.css";
+import descriptionStyles from "@/styles/description.module.css";
 
 export type ArticleCardProps = {
   image: {
@@ -22,7 +23,9 @@ export const ArticleCard = ({
       <Image src={image.url} alt={image.alt} width={350} height={240} />
       <div className={articlesStyles["articles__card__text-section"]}>
         <h3 className={articlesStyles["articles__card__header"]}>{title}</h3>
-        <p className={articlesStyles["articles__card__excerpt"]}>
+        <p
+          className={`${descriptionStyles.description} ${descriptionStyles["description--sm"]}`}
+        >
           {description}
         </p>
         <a className={articlesStyles["articles__card__link"]} href={url}>

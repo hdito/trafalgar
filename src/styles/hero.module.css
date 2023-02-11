@@ -23,10 +23,6 @@
 }
 
 .description__text {
-  color: var(--gray);
-  font-weight: 300;
-  font-size: 21px;
-  line-height: 32px;
   margin-bottom: 45px;
 }
 

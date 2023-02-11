@@ -1,6 +1,7 @@
 import barStyles from "@/styles/bar.module.css";
 import styles from "@/styles/index.module.css";
 import mobileAppsStyles from "@/styles/mobileApps.module.css";
+import descriptionStyles from "@/styles/description.module.css";
 import Image from "next/image";
 import { Button } from "./button";
 import { Subheader } from "./subheader";
@@ -12,7 +13,7 @@ export const MobileApps = (): JSX.Element => {
         <Subheader>Download our mobile&nbsp;apps</Subheader>
         <div className={barStyles.bar}></div>
         <p
-          className={`${styles.description} ${mobileAppsStyles["mobile-apps__description"]}`}
+          className={`${descriptionStyles.description} ${mobileAppsStyles["mobile-apps__description"]}`}
         >
           Our dedicated patient engagement app and web portal allow you to
           access information instantaneously (no tedeous form, long calls, or

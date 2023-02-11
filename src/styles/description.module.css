@@ -1,0 +1,16 @@
+.description {
+  color: var(--gray);
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.description--sm {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.description--bg {
+  font-size: 21px;
+  line-height: 30px;
+}

@@ -20,10 +20,6 @@
 .providers__description {
   margin-top: 31px;
   margin-bottom: 37px;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 30px;
-  color: var(--gray);
 }
 
 .providers__dots-grid {

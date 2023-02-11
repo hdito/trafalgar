@@ -1,4 +1,5 @@
 import heroStyles from "@/styles/hero.module.css";
+import descriptionStyles from "@/styles/description.module.css";
 import { DotsGrid } from "./dotsGrid";
 import Image from "next/image";
 import { Button } from "./button";
@@ -14,7 +15,9 @@ export const Hero = (): JSX.Element => {
           <h1 className={heroStyles.desciption__header}>
             Virtual healthcare for you
           </h1>
-          <p className={heroStyles.description__text}>
+          <p
+            className={`${heroStyles.description__text} ${descriptionStyles.description} ${descriptionStyles["description--bg"]}`}
+          >
             Trafalgar provides progressive, and affordable healthcare,
             accessible on mobile and online for everyone
           </p>
