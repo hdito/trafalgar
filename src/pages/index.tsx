@@ -2,11 +2,10 @@ import { ArticlesSection } from "@/components/articles";
 import { Description } from "@/components/description";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
-import { Providers } from "@/components/providers";
 import { MobileApps } from "@/components/mobileApps";
 import { OurServices } from "@/components/ourServices";
+import { Providers } from "@/components/providers";
 import { Testimonials } from "@/components/testimonials";
-import { Nav } from "@/components/nav";
 import { Mulish } from "@next/font/google";
 import Head from "next/head";
 

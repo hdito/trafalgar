@@ -1,23 +1,23 @@
-import description from "@/styles/description.module.css";
+import descriptionStyles from "@/styles/description.module.css";
 import { DotsGrid } from "./dotsGrid";
 import Image from "next/image";
 
 export const Description = (): JSX.Element => {
   return (
-    <div className={description.description__container}>
-      <div className={description["description__dots-grid"]}>
+    <div className={descriptionStyles.description__container}>
+      <div className={descriptionStyles["description__dots-grid"]}>
         <DotsGrid />
       </div>
-      <div className={description.description}>
-        <div className={description["description__text-block"]}>
-          <h1 className={description.desciption__header}>
+      <div className={descriptionStyles.description}>
+        <div className={descriptionStyles["description__text-block"]}>
+          <h1 className={descriptionStyles.desciption__header}>
             Virtual healthcare for you
           </h1>
-          <p className={description.description__text}>
+          <p className={descriptionStyles.description__text}>
             Trafalgar provides progressive, and affordable healthcare,
             accessible on mobile and online for everyone
           </p>
-          <button className={description.description__button}>
+          <button className={descriptionStyles.description__button}>
             Consult today
           </button>
         </div>

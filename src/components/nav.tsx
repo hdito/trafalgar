@@ -1,4 +1,4 @@
-import topNavBar from "@/styles/nav.module.css";
+import navStyles from "@/styles/nav.module.css";
 import { Link } from "@/types/link";
 
 export const Nav = (): JSX.Element => {
@@ -13,15 +13,15 @@ export const Nav = (): JSX.Element => {
   ];
 
   return (
-    <nav className={topNavBar["nav"]}>
-      <ul className={topNavBar.nav__menu}>
+    <nav className={navStyles["nav"]}>
+      <ul className={navStyles.nav__menu}>
         {links.map((link) => (
           <li key={link.title}>
             <a
               href={link.url}
-              className={`${topNavBar.nav__link} ${
+              className={`${navStyles.nav__link} ${
                 link.title === selectedLink
-                  ? topNavBar["nav__link--active"]
+                  ? navStyles["nav__link--active"]
                   : ""
               }`}
             >

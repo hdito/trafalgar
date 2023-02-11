@@ -1,4 +1,4 @@
-import secondaryButton from "@/styles/secondaryButton.module.css";
+import secondaryButtonStyles from "@/styles/secondaryButton.module.css";
 import { PropsWithChildren } from "react";
 
 export const SecondaryButton = ({
@@ -6,7 +6,7 @@ export const SecondaryButton = ({
   children,
 }: PropsWithChildren<{ icon?: JSX.Element }>): JSX.Element => {
   return (
-    <button className={secondaryButton.button}>
+    <button className={secondaryButtonStyles.button}>
       {children}
       {icon}
     </button>

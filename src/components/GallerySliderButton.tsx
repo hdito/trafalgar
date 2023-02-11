@@ -1,4 +1,4 @@
-import testimonials from "@/styles/testimonials.module.css";
+import testimonialsStyles from "@/styles/testimonials.module.css";
 
 type GallerySliderButtonProps = {
   isSelected?: boolean;
@@ -12,8 +12,8 @@ export const GallerySliderButton = ({
       <svg
         className={
           isSelected
-            ? testimonials["testimonials__slider__button--selected"]
-            : testimonials.testimonials__slider__button
+            ? testimonialsStyles["testimonials__slider__button--selected"]
+            : testimonialsStyles.testimonials__slider__button
         }
         width="10"
         height="10"
