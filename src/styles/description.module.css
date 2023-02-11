@@ -23,7 +23,7 @@
 }
 
 .description__text {
-  color: #7d7987;
+  color: var(--gray);
   font-weight: 300;
   font-size: 21px;
   line-height: 32px;
@@ -31,7 +31,7 @@
 }
 
 .description__button {
-  background-color: #458ff6;
+  background-color: var(--blue);
   font-size: 18px;
   font-weight: 700;
   border-radius: 55px;

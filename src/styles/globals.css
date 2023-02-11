@@ -6,10 +6,8 @@ a {
 }
 
 button {
-  appearance: button;
   background-color: transparent;
-  background-image: none;
-  border: 0px;
+  border: 0;
   padding: 0;
 }
 
@@ -22,4 +20,9 @@ p {
 
 li {
   list-style: none;
+}
+
+:root {
+  --blue: #458ff6;
+  --gray: #7d7987;
 }

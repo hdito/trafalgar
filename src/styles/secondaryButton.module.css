@@ -3,8 +3,8 @@
   align-items: center;
   justify-content: center;
   gap: 14px;
-  border: 1px solid #458ff6;
-  color: #458ff6;
+  border: 1px solid var(--blue);
+  color: var(--blue);
   background-color: white;
   width: 200px;
   height: 56px;

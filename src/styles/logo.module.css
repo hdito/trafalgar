@@ -28,11 +28,11 @@
 }
 
 .logo__image--primary {
-  background-color: #458ff6;
+  background-color: var(--blue);
   color: white;
 }
 
 .logo__image--secondary {
   background-color: white;
-  color: #458ff6;
+  color: var(--blue);
 }
