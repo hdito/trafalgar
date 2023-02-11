@@ -1,5 +1,5 @@
 import { ArticlesSection } from "@/components/articles";
-import { Description } from "@/components/description";
+import { Hero } from "@/components/hero";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { MobileApps } from "@/components/mobileApps";
@@ -23,7 +23,7 @@ export default function Home() {
       <div className={mulish.className}>
         <Header />
         <main>
-          <Description />
+          <Hero />
           <OurServices />
           <Providers />
           <MobileApps />

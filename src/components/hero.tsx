@@ -1,20 +1,20 @@
-import descriptionStyles from "@/styles/description.module.css";
+import heroStyles from "@/styles/hero.module.css";
 import { DotsGrid } from "./dotsGrid";
 import Image from "next/image";
 import { Button } from "./button";
 
-export const Description = (): JSX.Element => {
+export const Hero = (): JSX.Element => {
   return (
-    <div className={descriptionStyles.description__container}>
-      <div className={descriptionStyles["description__dots-grid"]}>
+    <div className={heroStyles.description__container}>
+      <div className={heroStyles["description__dots-grid"]}>
         <DotsGrid />
       </div>
-      <div className={descriptionStyles.description}>
-        <div className={descriptionStyles["description__text-block"]}>
-          <h1 className={descriptionStyles.desciption__header}>
+      <div className={heroStyles.description}>
+        <div className={heroStyles["description__text-block"]}>
+          <h1 className={heroStyles.desciption__header}>
             Virtual healthcare for you
           </h1>
-          <p className={descriptionStyles.description__text}>
+          <p className={heroStyles.description__text}>
             Trafalgar provides progressive, and affordable healthcare,
             accessible on mobile and online for everyone
           </p>
