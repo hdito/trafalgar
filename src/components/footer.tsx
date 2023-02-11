@@ -58,12 +58,16 @@ export const Footer = (): JSX.Element => {
           </div>
         </div>
         {footerLinks.map((linkBlock) => (
-          <div>
+          <div key={linkBlock.title}>
             <h3 className={footerStyles["footer__links-block-title"]}>
               {linkBlock.title}
             </h3>
             {linkBlock.links.map((link) => (
-              <a className={footerStyles.footer__link} href={link.url}>
+              <a
+                key={link.title}
+                className={footerStyles.footer__link}
+                href={link.url}
+              >
                 {link.title}
               </a>
             ))}

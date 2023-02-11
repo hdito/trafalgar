@@ -519,7 +519,7 @@ export const DotsGrid = (): JSX.Element => {
           gradientUnits="userSpaceOnUse"
         >
           <stop />
-          <stop offset="1" stop-color="white" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_23_4"
@@ -529,8 +529,8 @@ export const DotsGrid = (): JSX.Element => {
           y2="-50.67"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#97C3F9" />
-          <stop offset="1" stop-color="#93C1F9" />
+          <stop stopColor="#97C3F9" />
+          <stop offset="1" stopColor="#93C1F9" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_23_4"
@@ -541,7 +541,7 @@ export const DotsGrid = (): JSX.Element => {
           gradientUnits="userSpaceOnUse"
         >
           <stop />
-          <stop offset="1" stop-color="white" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_23_4"
@@ -551,8 +551,8 @@ export const DotsGrid = (): JSX.Element => {
           y2="-60.9613"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#97C3F9" />
-          <stop offset="1" stop-color="#93C1F9" />
+          <stop stopColor="#97C3F9" />
+          <stop offset="1" stopColor="#93C1F9" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_23_4"
@@ -563,7 +563,7 @@ export const DotsGrid = (): JSX.Element => {
           gradientUnits="userSpaceOnUse"
         >
           <stop />
-          <stop offset="1" stop-color="white" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_23_4"
@@ -573,8 +573,8 @@ export const DotsGrid = (): JSX.Element => {
           y2="-71.2526"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#97C3F9" />
-          <stop offset="1" stop-color="#93C1F9" />
+          <stop stopColor="#97C3F9" />
+          <stop offset="1" stopColor="#93C1F9" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_23_4"
@@ -585,7 +585,7 @@ export const DotsGrid = (): JSX.Element => {
           gradientUnits="userSpaceOnUse"
         >
           <stop />
-          <stop offset="1" stop-color="white" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_23_4"
@@ -595,8 +595,8 @@ export const DotsGrid = (): JSX.Element => {
           y2="-81.5444"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#97C3F9" />
-          <stop offset="1" stop-color="#93C1F9" />
+          <stop stopColor="#97C3F9" />
+          <stop offset="1" stopColor="#93C1F9" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_23_4"
@@ -607,7 +607,7 @@ export const DotsGrid = (): JSX.Element => {
           gradientUnits="userSpaceOnUse"
         >
           <stop />
-          <stop offset="1" stop-color="white" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_23_4"
@@ -617,8 +617,8 @@ export const DotsGrid = (): JSX.Element => {
           y2="-91.8359"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#97C3F9" />
-          <stop offset="1" stop-color="#93C1F9" />
+          <stop stopColor="#97C3F9" />
+          <stop offset="1" stopColor="#93C1F9" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_23_4"
@@ -629,7 +629,7 @@ export const DotsGrid = (): JSX.Element => {
           gradientUnits="userSpaceOnUse"
         >
           <stop />
-          <stop offset="1" stop-color="white" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint11_linear_23_4"
@@ -639,8 +639,8 @@ export const DotsGrid = (): JSX.Element => {
           y2="-47.1572"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#97C3F9" />
-          <stop offset="1" stop-color="#93C1F9" />
+          <stop stopColor="#97C3F9" />
+          <stop offset="1" stopColor="#93C1F9" />
         </linearGradient>
         <linearGradient
           id="paint12_linear_23_4"
@@ -651,7 +651,7 @@ export const DotsGrid = (): JSX.Element => {
           gradientUnits="userSpaceOnUse"
         >
           <stop />
-          <stop offset="1" stop-color="white" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint13_linear_23_4"
@@ -661,8 +661,8 @@ export const DotsGrid = (): JSX.Element => {
           y2="-57.4491"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#97C3F9" />
-          <stop offset="1" stop-color="#93C1F9" />
+          <stop stopColor="#97C3F9" />
+          <stop offset="1" stopColor="#93C1F9" />
         </linearGradient>
         <linearGradient
           id="paint14_linear_23_4"
@@ -673,7 +673,7 @@ export const DotsGrid = (): JSX.Element => {
           gradientUnits="userSpaceOnUse"
         >
           <stop />
-          <stop offset="1" stop-color="white" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint15_linear_23_4"
@@ -683,8 +683,8 @@ export const DotsGrid = (): JSX.Element => {
           y2="-67.7404"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#97C3F9" />
-          <stop offset="1" stop-color="#93C1F9" />
+          <stop stopColor="#97C3F9" />
+          <stop offset="1" stopColor="#93C1F9" />
         </linearGradient>
         <linearGradient
           id="paint16_linear_23_4"
@@ -695,7 +695,7 @@ export const DotsGrid = (): JSX.Element => {
           gradientUnits="userSpaceOnUse"
         >
           <stop />
-          <stop offset="1" stop-color="white" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint17_linear_23_4"
@@ -705,8 +705,8 @@ export const DotsGrid = (): JSX.Element => {
           y2="-78.0318"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#97C3F9" />
-          <stop offset="1" stop-color="#93C1F9" />
+          <stop stopColor="#97C3F9" />
+          <stop offset="1" stopColor="#93C1F9" />
         </linearGradient>
         <linearGradient
           id="paint18_linear_23_4"
@@ -717,7 +717,7 @@ export const DotsGrid = (): JSX.Element => {
           gradientUnits="userSpaceOnUse"
         >
           <stop />
-          <stop offset="1" stop-color="white" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint19_linear_23_4"
@@ -727,8 +727,8 @@ export const DotsGrid = (): JSX.Element => {
           y2="-88.3232"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#97C3F9" />
-          <stop offset="1" stop-color="#93C1F9" />
+          <stop stopColor="#97C3F9" />
+          <stop offset="1" stopColor="#93C1F9" />
         </linearGradient>
         <linearGradient
           id="paint20_linear_23_4"
@@ -739,7 +739,7 @@ export const DotsGrid = (): JSX.Element => {
           gradientUnits="userSpaceOnUse"
         >
           <stop />
-          <stop offset="1" stop-color="white" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint21_linear_23_4"
@@ -749,8 +749,8 @@ export const DotsGrid = (): JSX.Element => {
           y2="-43.6458"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#97C3F9" />
-          <stop offset="1" stop-color="#93C1F9" />
+          <stop stopColor="#97C3F9" />
+          <stop offset="1" stopColor="#93C1F9" />
         </linearGradient>
         <linearGradient
           id="paint22_linear_23_4"
@@ -761,7 +761,7 @@ export const DotsGrid = (): JSX.Element => {
           gradientUnits="userSpaceOnUse"
         >
           <stop />
-          <stop offset="1" stop-color="white" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint23_linear_23_4"
@@ -771,8 +771,8 @@ export const DotsGrid = (): JSX.Element => {
           y2="-53.9374"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#97C3F9" />
-          <stop offset="1" stop-color="#93C1F9" />
+          <stop stopColor="#97C3F9" />
+          <stop offset="1" stopColor="#93C1F9" />
         </linearGradient>
         <linearGradient
           id="paint24_linear_23_4"
@@ -783,7 +783,7 @@ export const DotsGrid = (): JSX.Element => {
           gradientUnits="userSpaceOnUse"
         >
           <stop />
-          <stop offset="1" stop-color="white" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint25_linear_23_4"
@@ -793,8 +793,8 @@ export const DotsGrid = (): JSX.Element => {
           y2="-64.2288"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#97C3F9" />
-          <stop offset="1" stop-color="#93C1F9" />
+          <stop stopColor="#97C3F9" />
+          <stop offset="1" stopColor="#93C1F9" />
         </linearGradient>
         <linearGradient
           id="paint26_linear_23_4"
@@ -805,7 +805,7 @@ export const DotsGrid = (): JSX.Element => {
           gradientUnits="userSpaceOnUse"
         >
           <stop />
-          <stop offset="1" stop-color="white" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint27_linear_23_4"
@@ -815,8 +815,8 @@ export const DotsGrid = (): JSX.Element => {
           y2="-74.5205"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#97C3F9" />
-          <stop offset="1" stop-color="#93C1F9" />
+          <stop stopColor="#97C3F9" />
+          <stop offset="1" stopColor="#93C1F9" />
         </linearGradient>
         <linearGradient
           id="paint28_linear_23_4"
@@ -827,7 +827,7 @@ export const DotsGrid = (): JSX.Element => {
           gradientUnits="userSpaceOnUse"
         >
           <stop />
-          <stop offset="1" stop-color="white" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint29_linear_23_4"
@@ -837,8 +837,8 @@ export const DotsGrid = (): JSX.Element => {
           y2="-84.812"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#97C3F9" />
-          <stop offset="1" stop-color="#93C1F9" />
+          <stop stopColor="#97C3F9" />
+          <stop offset="1" stopColor="#93C1F9" />
         </linearGradient>
         <linearGradient
           id="paint30_linear_23_4"
@@ -849,7 +849,7 @@ export const DotsGrid = (): JSX.Element => {
           gradientUnits="userSpaceOnUse"
         >
           <stop />
-          <stop offset="1" stop-color="white" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint31_linear_23_4"
@@ -859,8 +859,8 @@ export const DotsGrid = (): JSX.Element => {
           y2="-40.1339"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#97C3F9" />
-          <stop offset="1" stop-color="#93C1F9" />
+          <stop stopColor="#97C3F9" />
+          <stop offset="1" stopColor="#93C1F9" />
         </linearGradient>
         <linearGradient
           id="paint32_linear_23_4"
@@ -871,7 +871,7 @@ export const DotsGrid = (): JSX.Element => {
           gradientUnits="userSpaceOnUse"
         >
           <stop />
-          <stop offset="1" stop-color="white" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint33_linear_23_4"
@@ -881,8 +881,8 @@ export const DotsGrid = (): JSX.Element => {
           y2="-50.4254"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#97C3F9" />
-          <stop offset="1" stop-color="#93C1F9" />
+          <stop stopColor="#97C3F9" />
+          <stop offset="1" stopColor="#93C1F9" />
         </linearGradient>
         <linearGradient
           id="paint34_linear_23_4"
@@ -893,7 +893,7 @@ export const DotsGrid = (): JSX.Element => {
           gradientUnits="userSpaceOnUse"
         >
           <stop />
-          <stop offset="1" stop-color="white" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint35_linear_23_4"
@@ -903,8 +903,8 @@ export const DotsGrid = (): JSX.Element => {
           y2="-60.7168"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#97C3F9" />
-          <stop offset="1" stop-color="#93C1F9" />
+          <stop stopColor="#97C3F9" />
+          <stop offset="1" stopColor="#93C1F9" />
         </linearGradient>
         <linearGradient
           id="paint36_linear_23_4"
@@ -915,7 +915,7 @@ export const DotsGrid = (): JSX.Element => {
           gradientUnits="userSpaceOnUse"
         >
           <stop />
-          <stop offset="1" stop-color="white" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint37_linear_23_4"
@@ -925,8 +925,8 @@ export const DotsGrid = (): JSX.Element => {
           y2="-71.0085"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#97C3F9" />
-          <stop offset="1" stop-color="#93C1F9" />
+          <stop stopColor="#97C3F9" />
+          <stop offset="1" stopColor="#93C1F9" />
         </linearGradient>
         <linearGradient
           id="paint38_linear_23_4"
@@ -937,7 +937,7 @@ export const DotsGrid = (): JSX.Element => {
           gradientUnits="userSpaceOnUse"
         >
           <stop />
-          <stop offset="1" stop-color="white" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint39_linear_23_4"
@@ -947,8 +947,8 @@ export const DotsGrid = (): JSX.Element => {
           y2="-81.3"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#97C3F9" />
-          <stop offset="1" stop-color="#93C1F9" />
+          <stop stopColor="#97C3F9" />
+          <stop offset="1" stopColor="#93C1F9" />
         </linearGradient>
         <linearGradient
           id="paint40_linear_23_4"
@@ -959,7 +959,7 @@ export const DotsGrid = (): JSX.Element => {
           gradientUnits="userSpaceOnUse"
         >
           <stop />
-          <stop offset="1" stop-color="white" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint41_linear_23_4"
@@ -969,8 +969,8 @@ export const DotsGrid = (): JSX.Element => {
           y2="-36.6218"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#97C3F9" />
-          <stop offset="1" stop-color="#93C1F9" />
+          <stop stopColor="#97C3F9" />
+          <stop offset="1" stopColor="#93C1F9" />
         </linearGradient>
         <linearGradient
           id="paint42_linear_23_4"
@@ -981,7 +981,7 @@ export const DotsGrid = (): JSX.Element => {
           gradientUnits="userSpaceOnUse"
         >
           <stop />
-          <stop offset="1" stop-color="white" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint43_linear_23_4"
@@ -991,8 +991,8 @@ export const DotsGrid = (): JSX.Element => {
           y2="-46.9133"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#97C3F9" />
-          <stop offset="1" stop-color="#93C1F9" />
+          <stop stopColor="#97C3F9" />
+          <stop offset="1" stopColor="#93C1F9" />
         </linearGradient>
         <linearGradient
           id="paint44_linear_23_4"
@@ -1003,7 +1003,7 @@ export const DotsGrid = (): JSX.Element => {
           gradientUnits="userSpaceOnUse"
         >
           <stop />
-          <stop offset="1" stop-color="white" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint45_linear_23_4"
@@ -1013,8 +1013,8 @@ export const DotsGrid = (): JSX.Element => {
           y2="-57.2047"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#97C3F9" />
-          <stop offset="1" stop-color="#93C1F9" />
+          <stop stopColor="#97C3F9" />
+          <stop offset="1" stopColor="#93C1F9" />
         </linearGradient>
         <linearGradient
           id="paint46_linear_23_4"
@@ -1025,7 +1025,7 @@ export const DotsGrid = (): JSX.Element => {
           gradientUnits="userSpaceOnUse"
         >
           <stop />
-          <stop offset="1" stop-color="white" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint47_linear_23_4"
@@ -1035,8 +1035,8 @@ export const DotsGrid = (): JSX.Element => {
           y2="-67.4963"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#97C3F9" />
-          <stop offset="1" stop-color="#93C1F9" />
+          <stop stopColor="#97C3F9" />
+          <stop offset="1" stopColor="#93C1F9" />
         </linearGradient>
         <linearGradient
           id="paint48_linear_23_4"
@@ -1047,7 +1047,7 @@ export const DotsGrid = (): JSX.Element => {
           gradientUnits="userSpaceOnUse"
         >
           <stop />
-          <stop offset="1" stop-color="white" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint49_linear_23_4"
@@ -1057,8 +1057,8 @@ export const DotsGrid = (): JSX.Element => {
           y2="-77.7878"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#97C3F9" />
-          <stop offset="1" stop-color="#93C1F9" />
+          <stop stopColor="#97C3F9" />
+          <stop offset="1" stopColor="#93C1F9" />
         </linearGradient>
       </defs>
     </svg>

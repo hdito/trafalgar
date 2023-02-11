@@ -48,7 +48,7 @@ export const ArticlesSection = (): JSX.Element => {
         </div>
         <div className={articlesStyles["articles__cards-container"]}>
           {articles.map((article) => (
-            <ArticleCard {...article} />
+            <ArticleCard key={article.title} {...article} />
           ))}
         </div>
         <div className={articlesStyles["articles__button-container"]}>
