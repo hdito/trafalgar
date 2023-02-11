@@ -1,10 +1,10 @@
 import barStyles from "@/styles/bar.module.css";
-import ourServices from "@/styles/ourServices.module.css";
 import descriptionStyles from "@/styles/description.module.css";
+import ourServices from "@/styles/ourServices.module.css";
+import subheaderStyles from "@/styles/subheader.module.css";
 import Image from "next/image";
-import { OurServicesCard } from "./ourServicesCard";
 import { Button } from "./button";
-import { Subheader } from "./subheader";
+import { OurServicesCard } from "./ourServicesCard";
 
 export const OurServices = (): JSX.Element => {
   const cardsInfo = [
@@ -68,7 +68,7 @@ export const OurServices = (): JSX.Element => {
       </div>
       <div className={ourServices["our-services"]}>
         <div className={ourServices["our-services__description"]}>
-          <Subheader>Our services</Subheader>
+          <h2 className={subheaderStyles.subheader}>Our services</h2>
           <div className={barStyles.bar}></div>
           <p
             className={`${descriptionStyles.description} ${ourServices["our-services__description__text"]}`}

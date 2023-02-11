@@ -1,10 +1,10 @@
-import providersStyles from "@/styles/providers.module.css";
-import descriptionStyles from "@/styles/description.module.css";
 import barStyles from "@/styles/bar.module.css";
+import descriptionStyles from "@/styles/description.module.css";
+import providersStyles from "@/styles/providers.module.css";
+import subheaderStyles from "@/styles/subheader.module.css";
 import Image from "next/image";
-import { DotsGrid } from "./dotsGrid";
 import { Button } from "./button";
-import { Subheader } from "./subheader";
+import { DotsGrid } from "./dotsGrid";
 
 export const Providers = () => {
   return (
@@ -22,7 +22,9 @@ export const Providers = () => {
           className={`${providersStyles["providers__block"]} ${providersStyles["providers__text"]}`}
         >
           <div className={providersStyles["providers__header"]}>
-            <Subheader>Leading healthcare providers</Subheader>
+            <h2 className={subheaderStyles.subheader}>
+              Leading healthcare providers
+            </h2>
           </div>
           <div className={barStyles.bar}></div>
           <p

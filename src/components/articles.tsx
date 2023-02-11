@@ -1,9 +1,9 @@
 import articlesStyles from "@/styles/articles.module.css";
 import barStyles from "@/styles/bar.module.css";
+import subheaderStyles from "@/styles/subheader.module.css";
 import Image from "next/image";
 import { ArticleCard, ArticleCardProps } from "./articleCard";
 import { Button } from "./button";
-import { Subheader } from "./subheader";
 
 export const ArticlesSection = (): JSX.Element => {
   const articles: ArticleCardProps[] = [
@@ -41,7 +41,9 @@ export const ArticlesSection = (): JSX.Element => {
       />
       <div className={articlesStyles["articles"]}>
         <div className={articlesStyles["articles__header-container"]}>
-          <Subheader>Check out our latest article</Subheader>
+          <h2 className={subheaderStyles.subheader}>
+            Check out our latest article
+          </h2>
           <div className={barStyles.bar}></div>
         </div>
         <div className={articlesStyles["articles__cards-container"]}>

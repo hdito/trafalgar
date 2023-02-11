@@ -1,16 +1,17 @@
 import barStyles from "@/styles/bar.module.css";
-import styles from "@/styles/index.module.css";
-import mobileAppsStyles from "@/styles/mobileApps.module.css";
 import descriptionStyles from "@/styles/description.module.css";
+import mobileAppsStyles from "@/styles/mobileApps.module.css";
+import subheaderStyles from "@/styles/subheader.module.css";
 import Image from "next/image";
 import { Button } from "./button";
-import { Subheader } from "./subheader";
 
 export const MobileApps = (): JSX.Element => {
   return (
     <div className={mobileAppsStyles["mobile-apps"]}>
       <div className={mobileAppsStyles["mobile-apps__text-block"]}>
-        <Subheader>Download our mobile&nbsp;apps</Subheader>
+        <h2 className={subheaderStyles.subheader}>
+          Download our mobile&nbsp;apps
+        </h2>
         <div className={barStyles.bar}></div>
         <p
           className={`${descriptionStyles.description} ${mobileAppsStyles["mobile-apps__description"]}`}
