@@ -86,6 +86,7 @@ export const OurServices = (): JSX.Element => {
           />
           {cardsInfo.map((cardInfo) => (
             <OurServicesCard
+              key={cardInfo.title}
               icon={<cardInfo.icon />}
               title={cardInfo.title}
               description={cardInfo.description}
